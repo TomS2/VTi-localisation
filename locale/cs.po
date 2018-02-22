@@ -18846,7 +18846,7 @@ msgid "create basic configuraton files for Oscam"
 msgstr "sestavit základní konfig.soubory pro Oscam"
 
 msgid "Always include ECM in recordings"
-msgstr ""
+msgstr "přidvat ECM do nahrávek"
 
 msgid ""
 "Always include ECM messages in recordings. This overrides the individual "
@@ -18854,15 +18854,18 @@ msgid ""
 "afterwards (sometimes called offline decoding), if supported by your "
 "receiver. Default: off."
 msgstr ""
+"Přidává ECM do nahrávek. Je to globální nastavení pro časovače. "
+"Platí pro rozkódované offline záznamy, pokud to box podporuje. "
+"Předvoleno : vyp."
 
 msgid "Never decrypt while recording CI services"
-msgstr ""
+msgstr "Nikdy nedekódovat při nahrávání přes CI službu !"
 
 msgid "mark as scrambled : %s"
-msgstr ""
+msgstr "označit jako kódované : %s"
 
 msgid "mark as descrambled : %s"
-msgstr ""
+msgstr "označit jako dekódované : %s"
 
 msgid ""
 "Never decrypt the content while recording. This overrides the individual "
@@ -18870,416 +18873,462 @@ msgid ""
 "presentation and must be decrypted afterwards (sometimes called offline "
 "decoding). Default: off."
 msgstr ""
+"Nikdy nedekódovat obsah při nahrávání. Je to globální nastavení pro časovače. "
+"Nahrávky je třeba rozkódovat offline dodatečně. "
+"Předvoleno : vyp."
 
 msgid "Please select firmware file"
-msgstr ""
+msgstr "vyberte soubor firmware"
 
 msgid "Battery level for OTA : "
-msgstr ""
+msgstr "hodnota baterie pro OTA : "
 
 msgid "Current app version : "
-msgstr ""
+msgstr "aktuální verze aplikace : "
 
 msgid "New app version : "
-msgstr ""
+msgstr "nová verze aplikace : "
 
 msgid "Updateing %d %%"
-msgstr ""
+msgstr "aktualizace %d %%"
 
 msgid "Battery level for OTA : %s"
-msgstr ""
+msgstr "hodnota baterie pro OTA : %s"
 
 msgid "Current app version : %d"
-msgstr ""
+msgstr "aktuální verze aplikace : %d"
 
 msgid "New app version : %d"
-msgstr ""
+msgstr "nová verze aplikace : %d"
 
 msgid "New app version : N/A"
-msgstr ""
+msgstr "nová verze aplikace : -ne-"
 
 msgid "Event %d"
-msgstr ""
+msgstr "událost %d"
 
 msgid "Selected : %s"
-msgstr ""
+msgstr "vybráno : %s"
 
 msgid "Please exit and try again."
-msgstr ""
+msgstr "Ukončete to a zkuste znovu..."
 
 msgid "Not enough battery level for OTA update."
-msgstr ""
+msgstr "Málo nabitá baterie pro aktualizaci OTA !"
 
 msgid "Invalid firmware file."
-msgstr ""
+msgstr "Chybný soubor firmware !"
 
 msgid ""
 "NOTE : The selected firmware version is not higher than existing one.\n"
 "\n"
 msgstr ""
+"Upozornění : vybraná verze firmware není vyšší než je aktuální.\n"
+"\n"
 
 msgid ""
 "While the update is progress, RCU can not be used and other bluetooth device "
 "must be disconnected .\n"
 "Do you want update?"
 msgstr ""
+"Během aktualizace nelze používat RCU a ostatní bluetooth zařízení "
+"musí být odpojeno !\n"
+"Chcete aktualizovat ?"
 
 msgid "disconnect to %s failed!!"
-msgstr ""
+msgstr "Odpojení %s selhalo !"
 
 msgid ""
 "Battery is low. Suggest to prepare replacement batteries for using properly "
 "%s."
 msgstr ""
+"Baterie je malá ! Připravte si náhradní "
+"%s"
 
 msgid "Bluetooth Setup Options"
-msgstr ""
+msgstr "nastavení Bluetooth"
 
 msgid "Set bluetooth audio delay (msec)"
-msgstr ""
+msgstr "prodleva pro audio bluetooth (msek.)"
 
 msgid "Show state message on infobar notification"
-msgstr ""
+msgstr "zobrazit oznámení v info-panelu"
 
 msgid "Show battery low message on infobar notification"
-msgstr ""
+msgstr "zobrazit oznámení o stavu baretie v info-panelu"
 
 msgid "Scan failed! try again."
-msgstr ""
+msgstr "Vyhledávání selhalo ! Zkuste to znovu."
 
 msgid "Disconnecting %s"
-msgstr ""
+msgstr "odpojení %s"
 
 msgid "Disconnect %s failed!!"
-msgstr ""
+msgstr "Odpojení %s selhalo !"
 
 msgid "Bluetooth Scan"
-msgstr ""
+msgstr "vyhledávání Bluetooth"
 
 msgid "Stop scan"
-msgstr ""
+msgstr "zastavit vyhledávání"
 
 msgid "Scanning VUPLUS BLE RCU"
-msgstr ""
+msgstr "vyhledávání VUPLUS BLE RCU"
 
 msgid "Device %s is not found."
-msgstr ""
+msgstr "Zařízení %s nebylo nalezeno !"
 
 msgid "Vu+ Bluetooth RCU Setup"
-msgstr ""
+msgstr "nastavení Vu+ Bluetooth RCU"
 
 msgid ""
 "Press and hold the buttons <MENU+AUDIO>\n"
 " for five seconds to start."
 msgstr ""
+"Stiskněte a držte pro start tl. <MENU+AUDIO>\n"
+" pět sek."
 
 msgid ""
 "Scan failed. Please try again VUPLUS BLE RCU setup.\n"
 "(AUDIO+MENU buttons)"
 msgstr ""
+"Vyhledávání selhalo ! Zkuste znovu přenastavit VUPLUS BLE RCU.\n"
+"(tl. audio+menu)"
 
 msgid ""
 "Connection failed.\n"
 "Another audio device is connected. (%s)"
 msgstr ""
+"Připojení selhalo !\n"
+"Připojené je jiné audio zařízení. (%s)"
 
 msgid "connect to %s failed!!"
-msgstr ""
+msgstr "Připojení %s selhalo !"
 
 msgid "Can't communicate with %s."
-msgstr ""
+msgstr "Přes %s komunikovat nelze !"
 
 msgid ""
 "\n"
 "Please repair Vu+ RCU. (by AUDIO+MENU)"
-msgstr ""
+msgstr "Opravte Vu+ RCU ! (přes audio+menu)"
 
 msgid "Connect/Disconnect selected device"
-msgstr ""
+msgstr "připojit / odpojit vybrané zařízení"
 
 msgid "Exit bluetooth setup"
-msgstr ""
+msgstr "ukončit nastavení bluetooth"
 
 msgid "Enable/Disable bluetooth"
-msgstr ""
+msgstr "zapnout / vypnout bluetooth"
 
 msgid "Remove selected device"
-msgstr ""
+msgstr "odebrat vybrané zařízení"
 
 msgid "Start Scan / Setup VUPLUS BLE RCU"
-msgstr ""
+msgstr "spustit hledání / nastavení VUPLUS BLE RCU"
 
 msgid "Setup bluetooth options"
-msgstr ""
+msgstr "volby nastavení bluetooth"
 
 msgid "OTA update for VUPLUS BLE RCU"
-msgstr ""
+msgstr "OTA aktualizace pro VUPLUS BLE RCU"
 
 msgid ""
 "Please enable bluetooth \n"
 "before pairing the VUPLUS-BLE-RCU."
 msgstr ""
+"Aktuvujte bluetooth \n"
+"před párováním VUPLUS-BLE-RCU !"
 
 msgid "Removing VUPLUS-BLE-RCU..."
-msgstr ""
+msgstr "...odebírám VUPLUS-BLE-RCU..."
 
 msgid "Please connect VUPLUS-BLE-RCU."
-msgstr ""
+msgstr "Připojte VUPLUS-BLE-RCU !"
 
 msgid "Scan and setup Vu+ Bluetooth RCU"
-msgstr ""
+msgstr "Vyhledat a nastavit Vu+ Bluetooth RCU"
 
 msgid "Scan other bluetooth 3.0 device (A2DP, HID)"
-msgstr ""
+msgstr "vyhledat další bluetooth 3.0 zařízení (A2DP, HID)"
 
 msgid "Please select scan mode."
-msgstr ""
+msgstr "Vyberte mód pro vyhledávání !"
 
 msgid "BluetoothSetup"
-msgstr ""
+msgstr "nastavení bluetooth"
 
 msgid "Device %s Pairing fail"
-msgstr ""
+msgstr "Párování se zařízením %s selhalo !"
 
 msgid "Device %s wrong pin code."
-msgstr ""
+msgstr "Chybný pin pro zařízení %s !"
 
 msgid ""
 "\"Wit.ai speech to text Setup\" gets the speech data from VUPLUS-BLE-RCU and "
 "converts it to text using wit.ai.\n"
 "\n"
 msgstr ""
+"\"nastavení Wit.ai pro čtení textu\" - získává hlasová data gets z VUPLUS-BLE-RCU a "
+"konvertuje to na použitý text přes wit.ai.\n"
+"\n"
 
 msgid "1. Sign up for wit.ai (https://wit.ai)\n"
-msgstr ""
+msgstr "1. zapsat do wit.ai (https://wit.ai)\n"
 
 msgid "2. Enter \"server access token\" under the settings menu to below.\n"
-msgstr ""
+msgstr "2. zadat \"přístup na server\" v menu nastavení dole\n"
 
 msgid "Wit.ai Speech to Text Setup"
-msgstr ""
+msgstr "nastavení Wit.ai pro čtení textu"
 
 msgid "Input server access token"
-msgstr ""
+msgstr "přístup na server"
 
 msgid "Open browser and search with google"
-msgstr ""
+msgstr "otevřít prohlížeč a hledat na Google"
 
 msgid "Converting speech to text using wit.ai server..."
-msgstr ""
+msgstr "Konverze na použitý text přes server wit.ai..."
 
 msgid ""
 "Conversion of speech to text failed.\n"
 "Please try again"
-msgstr ""
+msgstr "Konverze na použitý text selhala !"
+"Zkuste to znovu."
 
 msgid "Speech to text using Wit.ai for VUPLUS-BLE-RCU."
-msgstr ""
+msgstr "Konverze na použitý text pro VUPLUS-BLE-RCU"
 
 msgid "enable grouped folders in: %s"
-msgstr ""
+msgstr "povolit seskupení složek v : %s"
 
 msgid "disable grouped folders in: %s"
-msgstr ""
+msgstr "zakázat seskupení složek v : %s"
 
 msgid "Enable descrambling in standby"
-msgstr ""
+msgstr "povolit dekódování v režimu spánku"
 
 msgid "Begin of time intervall for descrambling in standby"
-msgstr ""
+msgstr "čas spuštění dekódování v režimu spánku"
 
 msgid "End of time intervall for descrambling in standby"
-msgstr ""
+msgstr "čas ukončení dekódování v režimu spánku"
 
 msgid ""
 "A PVR descramble converting is finished.\n"
 "%s"
 msgstr ""
+"Konverze dekódování PVR byla dokončena.\n"
+"%s"
 
 msgid "Skip firmware update of VUPLUS-BLE-RCU (version : %d)"
-msgstr ""
+msgstr "přeskočit aktualizaci firmware u VUPLUS-BLE-RCU (verze : %d)"
 
 msgid "Current FW version : %d"
-msgstr ""
+msgstr "aktuální verze FW : %d"
 
 msgid "New FW version : %d"
-msgstr ""
+msgstr "nová verze FW : %d"
 
 msgid ""
 "New firmware detected for VUPLUS-BLE-RCU.\n"
 "\n"
 msgstr ""
+"Detekována nová verze firmware pro VUPLUS-BLE-RCU !\n"
+"\n"
 
 msgid ""
 "While the update is progress, RCU can not be used and other bluetooth device "
 "must be disconnected.\n"
 "\n"
 msgstr ""
+"Během aktualizace nelze používat RCU a ostatní bluetooth zařízení "
+"musí být odpojena !\n"
+"\n"
 
 msgid ""
 "Current FW version : %d\n"
 "New FW version : %d"
 msgstr ""
+"aktuální verze FW : %d\n"
+"nová verze FW     : %d"
 
 msgid "Upgrade now"
-msgstr ""
+msgstr "aktualizovat nyní..."
 
 msgid "Remind Me later"
-msgstr ""
+msgstr "připomenout později..."
 
 msgid "Skip this version"
-msgstr ""
+msgstr "přeskočit tuto verzi !"
 
 msgid "VUPLUS-BLE-RCU is disconnected. Please connect and select again."
-msgstr ""
+msgstr "VUPLUS-BLE-RCU je odpojené ! Připojte ho a znovu vyberte."
 
 msgid ""
 "If you want to update this firmware version, follow belows.\n"
 "\n"
 msgstr ""
+"Pokud budete aktualizovat tuto verzi, postupujte viz dole.\n"
+"\n"
 
 msgid ""
 "1. Move to Bluetooth Setup Options.\n"
 "(press MENU key in BluetoothSetup)\n"
 msgstr ""
+"1. přesun na volby nastavení Bluetooth\n"
+"(tl. menu nastavení Bluetooth)\n"
 
 msgid "2. Change 'Skip firmware update of VUPLUS-BLE-RCU' option to 'no'\n"
-msgstr ""
+msgstr "2. změnit volbu 'přeskočit aktualizaci firmware pro VUPLUS-BLE-RCU' na -ne-'\n"
 
 msgid ""
 "3. Reconnect the VUPLUS-BLE-RCU.\n"
 "\n"
 msgstr ""
+"3. aktualizovat připojení VUPLUS-BLE-RCU\n"       
 
 msgid "New firmware detected for VUPLUS-BLE-RCU. (old: %d new: %d)"
-msgstr ""
+msgstr "Detekováno nové firmware pro VUPLUS-BLE-RCU. (pův.: %d nové: %d)"
 
 msgid "Enable automatic CI assignment"
-msgstr ""
+msgstr "povolit aut.přiřazení CI"
 
 msgid ""
 "\n"
 "\n"
 "<Code set manual>"
 msgstr ""
+"\n"
+"\n"
+"<man.nastavení kódu>"
 
 msgid ""
 "\n"
 "1. Press <OK> and <STB> simultaneously for 3 seconds. After 3 seconds LED "
 "turns on. "
 msgstr ""
+"\n"
+"1. stiskněte současně tl. <OK> a <STB> na 3 sek. Potom se LED "
+"zapne. "
 
 msgid ""
 "\n"
 "2. Enter a 5 digit code(ex. code 2 is '00002')"
 msgstr ""
+"\n"
+"2. vložte kód z 5 čísel (kód 2 = '00002')"
 
 msgid ""
 "\n"
 "3. Press the <OK> key. LED is blinked and turns on."
 msgstr ""
+"\n"
+"3. stiskněte tl. <OK>. LED začne blikat a zapne se."
 
 msgid "Keep Bluetooth enabled in standby"
-msgstr ""
+msgstr "ponechat zapnuté bluetooth i v režimu spánku"
 
 msgid "Use standby before shutdown when scrambled records are detected"
-msgstr ""
+msgstr "Pokud je detekování nahrávání, ponechat box před vypnutím v režimu spánku"
 
 msgid "There are unscrambled movies, which will be unscrambled in standby"
-msgstr ""
+msgstr "Jsou připravena videa, která budou dekódována v režimu spánku"
 
 msgid "Streaming service assignment"
-msgstr ""
+msgstr "přiřazení kanálu pro sdílení"
 
 msgid "Streaming service assignment setup"
-msgstr ""
+msgstr "volby přiřazení kanálu pro sdílení"
 
 msgid "Services assigned to: %s"
-msgstr ""
+msgstr "přiřazený kanál :  %s"
 
 msgid "Enable streaming service assignment"
-msgstr ""
+msgstr "aktivovat přiřazení kanálu pro sdílení"
 
 msgid "IP of remote Vu+"
-msgstr ""
+msgstr "IP pro vzdálené Vu+"
 
 msgid "Streaming port of remote Vu+"
-msgstr ""
+msgstr "port pro sdílení vzdáleného Vu+"
 
 msgid "User for streaming with authentication"
-msgstr ""
+msgstr "uživatel pro sdílení s potvrzením"
 
 msgid "Password for streaming with authentication"
-msgstr ""
+msgstr "heslo pro pro sdílení s potvrzením"
 
 msgid "no Services selected"
-msgstr ""
+msgstr "Kanál není vybraný !"
 
 msgid "Search results"
-msgstr ""
+msgstr "výsledek vyhledání"
 
 msgid "search for movies"
-msgstr ""
+msgstr "vyhledat videa"
 
 msgid "Database update was finished"
-msgstr ""
+msgstr "Aktualizace databáze byla dokončena"
 
 msgid "Database update was cancelled"
-msgstr ""
+msgstr "Aktualizace databáze byla přerušena !"
 
 msgid "Update Database"
-msgstr ""
+msgstr "aktualizace databáze"
 
 msgid "Database Cleanup"
-msgstr ""
+msgstr "vyprázdnění databáze"
 
 msgid "Path for SQL database"
-msgstr ""
+msgstr "cesta pro SQL databázi"
 
 msgid "update movie database (full)"
-msgstr ""
+msgstr "aktualizace databáze videa (plná)"
 
 msgid "update movie database for: %s"
-msgstr ""
+msgstr "aktualizace databáze videa : %s"
 
 msgid "cleanup movie database"
-msgstr ""
+msgstr "vyprázdnění databáze videa"
 
 msgid "There is no voice signal."
-msgstr ""
+msgstr "Není tu hlasový signál !"
 
 msgid "Put your voice close to the remote control..."
-msgstr ""
+msgstr "Odeslání hlasu bylo zrušeno ze vzdáleného ovladače..."
 
 msgid "search movie"
-msgstr ""
+msgstr "vyhledat videa"
 
 msgid "Please enter search string"
-msgstr ""
+msgstr "Zadejte vyhledávaný text"
 
 msgid "Please select type of search..."
-msgstr ""
+msgstr "Vyberte typ vyhledávání..."
 
 msgid "Error during committing changes"
-msgstr ""
+msgstr "Chyba během zapracovávání změn !"
 
 msgid "Error at closing database"
-msgstr ""
+msgstr "Chyba při uzavírání databáze !"
 
 msgid "Error during database transaction"
-msgstr ""
+msgstr "Chyba během převodu databáze !"
 
 msgid "<No Channel>"
-msgstr ""
+msgstr "<chybí kanál>"
 
 msgid "No channel"
-msgstr ""
+msgstr "chybí kanál"
 
 msgid "Quad PIP channel"
-msgstr ""
+msgstr "čtyřnásobný PIP kanál"
 
 msgid "Input channel name."
-msgstr ""
+msgstr "název pro vstupní kanál"
 
 msgid ""
 "EPG key : Switch to quad PiP entry\n"
@@ -19287,6 +19336,10 @@ msgid ""
 "PVR key : Input channel name\n"
 "Exit key : Finish channel edit"
 msgstr ""
+"tl.EPG : přepnout na čtyřnásobný PIP\n"
+"tl.OK  : přidat nové zadání\n"
+"tl.PVR : název pro vstupní kanál\n"
+"tl.Exit: ukončit editaci kanálu"
 
 msgid ""
 "EPG key : Switch to channel list\n"
@@ -19294,124 +19347,128 @@ msgid ""
 "PVR key : Input channel name\n"
 "Exit key : Finish channel edit"
 msgstr ""
+"tl.EPG : přepnout seznamu kanálů\n"
+"tl.OK  : odebrat vybraný kanál\n"
+"tl.PVR : název pro vstupní kanál\n"
+"tl.Exit: ukončit editaci kanálu"
 
 msgid "<empty>"
-msgstr ""
+msgstr "<prázdné>"
 
 msgid "Choice where to put \"%s\""
-msgstr ""
+msgstr "volba pro odeslání \"%s\""
 
 msgid "Quad PiP Channel Selection"
-msgstr ""
+msgstr "výběr čtyřnásobného PIP kanálu"
 
 msgid "Select Quad Channels"
-msgstr ""
+msgstr "výběr čtyř kanálů"
 
 msgid "Add New Quad Channel Entry"
-msgstr ""
+msgstr "přidat nový čtyřnásobný kanál"
 
 msgid "Remove Quad Channel Entry"
-msgstr ""
+msgstr "odebrat čtyřnásobný kanál"
 
 msgid "Edit Quad Channel Entry"
-msgstr ""
+msgstr "upravit čtyřnásobný kanál"
 
 msgid "Exit Quad Channel Selection"
-msgstr ""
+msgstr "ukončit čtyřnásobný kanál"
 
 msgid "Quad Pip Screen"
-msgstr ""
+msgstr "zobrazit čtyřnásobný PIP"
 
 msgid "Exit quad PiP"
-msgstr ""
+msgstr "ukončit čtyřnásobný PIP"
 
 msgid "Zap focused channel on full screen"
-msgstr ""
+msgstr "zvětšit kanál na celou obrazovku"
 
 msgid "Show channel selection"
-msgstr ""
+msgstr "zobrazit vybraný kanál"
 
 msgid "Prev quad PiP channel"
-msgstr ""
+msgstr "náhled čtyřnásobného PIP kanálu"
 
 msgid "Next quad PiP channel"
-msgstr ""
+msgstr "další čtyřnásobný PIP kanál"
 
 msgid "Show/Hide focus bar"
-msgstr ""
+msgstr "zobrazit / skrýt panel zvětšení"
 
 msgid "  Red key : Show/Hide focus bar"
-msgstr ""
+msgstr "  červené tl.: zobrazit / skrýt panel zvětšení"
 
 msgid "  Menu key : Select quad channel"
-msgstr ""
+msgstr "  tl.menu : vybrat čtyřnásobný kanál"
 
 msgid "Box or driver is not support Quad PiP."
-msgstr ""
+msgstr "Box nebo ovladač čtyřnásobný PIP nepodporuje !"
 
 msgid "Enable Quad PIP"
-msgstr ""
+msgstr "aktivovat čtyřnásobný PIP"
 
 msgid "current channel"
-msgstr ""
+msgstr "aktuální kanál"
 
 msgid "  Red key : Zap focused channel on full screen"
-msgstr ""
+msgstr "  červené tl.: zobrazit kanál na plné obrazovce"
 
 msgid "Search results for:"
-msgstr ""
+msgstr "výsledek hledání pro : "
 
 msgid ""
 "The database is currently used by another Vu+ STB, please try again later"
-msgstr ""
+msgstr "Databázi aktuálně využívá jiný Vu+ STB ! Zkuste to později."
 
 msgid "last 24 hours"
-msgstr ""
+msgstr "posledních 24 hod."
 
 msgid "last 3 days"
-msgstr ""
+msgstr "poslední 3 dny"
 
 msgid "last week"
-msgstr ""
+msgstr "poslední týden"
 
 msgid "last month"
-msgstr ""
+msgstr "poslední měsíc"
 
 msgid "last 6 months"
-msgstr ""
+msgstr "posledních 6 měsíců"
 
 msgid "last year"
-msgstr ""
+msgstr "poslední rok"
 
 msgid "last %s days"
-msgstr ""
+msgstr "posledních %s dnů"
 
 msgid "older than 6 months"
-msgstr ""
+msgstr "starší než 6 měsíců"
 
 msgid "older than 1 year"
-msgstr ""
+msgstr "starší než 1 rok"
 
 msgid "older than %s days"
-msgstr ""
+msgstr "starší než %s dnů"
 
 msgid "Select movies by date"
-msgstr ""
+msgstr "vybrat video podle datumu"
 
 msgid "Select Autotag"
-msgstr ""
+msgstr "vybrat aut.značky"
 
 msgid "Please enter days"
-msgstr ""
+msgstr "zadejte dny"
 
 msgid "find movies by AutoTag/Tag"
-msgstr ""
+msgstr "vyhledat video podle aut.značky"
 
 msgid "find movies by date"
-msgstr ""
+msgstr "vyhledat video podle datumu"
 
 msgid "Debug type"
-msgstr ""
+msgstr "opravit typ"
 
 msgid ""
 "Debugging is enabled.\n"
@@ -19419,713 +19476,729 @@ msgid ""
 "Please disable debugging\n"
 "MENU->VTi->VTi-System Setup"
 msgstr ""
+"Ladění je aktivováno.\n"
+"Budete to ale potřebovat jen zřídka.\n"
+"Ladění vypněte !\n"
+"MENU->VTi->nastavení systému"
 
 msgid "Can not delete file which are currently recording at another Vu+ STB"
-msgstr ""
+msgstr "Nelze odstranit soubor, který je momentálně nahrávaný jiným Vu+ STB !"
 
 msgid ""
 "Delete failed, because folder is not empty !\n"
 "Disable movie trash in configuration to delete this item"
 msgstr ""
+"Odstranění selhalo, protože složka není prázdná !\n"
+"Vypněte koš pro videa v konfiguraci."
 
 msgid "restore selected items"
-msgstr ""
+msgstr "obnovit vybrané položky"
 
 msgid "restore : %s"
-msgstr ""
+msgstr "obnovit : %s"
 
 msgid "Use database for movie trash"
-msgstr ""
+msgstr "použít databázi pro koš videa"
 
 msgid "Delete movies in trash older than X days (0 = off)"
-msgstr ""
+msgstr "odstranit z koše starší videa než X dnů (0 = vyp.)"
 
 msgid "Show service path in movie list"
-msgstr ""
+msgstr "zobrazit cestu k seznamu videa"
 
 msgid "Delete movies which are in trash for more than Y days (0 = off)"
-msgstr ""
+msgstr "odstranit z koše starší videa než Y dnů (0 = vyp.)"
 
 msgid "Associate days X and Y with:"
-msgstr ""
+msgstr "asociovat X dny a Y s : "
 
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 msgid "and"
-msgstr ""
+msgstr "a"
 
 msgid "Cancelled upon user request"
-msgstr ""
+msgstr "Přerušeno uživatelem !"
 
 msgid "No, cancel"
-msgstr ""
+msgstr "ne, zrušit"
 
 msgid "Yes, delete it"
-msgstr ""
+msgstr "ano, odstranit to"
 
 msgid "Cancelled"
-msgstr ""
+msgstr "přerušeno"
 
 msgid "Deleted"
-msgstr ""
+msgstr "odstraněno"
 
 msgid "You need to write something!"
-msgstr ""
+msgstr "Potřebujete něco zapsat !"
 
 msgid "Use new design"
-msgstr ""
+msgstr "použít nový design"
 
 msgid "Common Settings"
-msgstr ""
+msgstr "Obecné nastavení"
 
 msgid "Minimal movie list"
-msgstr ""
+msgstr "minimální seznam videa"
 
 msgid "Minimal timer list"
-msgstr ""
+msgstr "minimální seznam časovačů"
 
 msgid "Minimal EPG list"
-msgstr ""
+msgstr "minimální seznam EPG"
 
 msgid "Really rename the recording"
-msgstr ""
+msgstr "přejmenovat záznam"
 
 msgid "Remove Package"
-msgstr ""
+msgstr "odebrat balíček"
 
 msgid "Update Package"
-msgstr ""
+msgstr "aktualizovat balíček"
 
 msgid "Install Package"
-msgstr ""
+msgstr "instalovat balíček"
 
 msgid "Packages"
-msgstr ""
+msgstr "balíčky"
 
 msgid "Installed"
-msgstr ""
+msgstr "instalováno"
 
 msgid "More"
-msgstr ""
+msgstr "více"
 
 msgid "Update from Feed"
-msgstr ""
+msgstr "aktualizovat z webu"
 
 msgid "Upgrade all Packages"
-msgstr ""
+msgstr "aktualizovat všechny balíčky"
 
 msgid "Include short description"
-msgstr ""
+msgstr "včetně krátkého popisu"
 
 msgid "Include extended description"
-msgstr ""
+msgstr "včetně rozšířeného popisu"
 
 msgid "Movie search"
-msgstr ""
+msgstr "vyhledat video"
 
 msgid "START TYPING"
-msgstr ""
+msgstr "star psaní"
 
 msgid "Update movie database automatically in Standby"
-msgstr ""
+msgstr "aut.aktualizovat databázi videa v režimu spánku"
 
 msgid "Edit Tags"
-msgstr ""
+msgstr "upravit značky"
 
 msgid "edit tags"
-msgstr ""
+msgstr "upravit značky"
 
 msgid "Select IPK File for Upload"
-msgstr ""
+msgstr "vybrat soubor IPK pro načtení"
 
 msgid "Uploaded Files"
-msgstr ""
+msgstr "načíst soubory"
 
 msgid "Upload package"
-msgstr ""
+msgstr "načíst balíček"
 
 msgid "Upload File Error"
-msgstr ""
+msgstr "načíst chybový protokol"
 
 msgid "Allow IPK Upload"
-msgstr ""
+msgstr "povolit načtení IPK"
 
 msgid "Full remote"
-msgstr ""
+msgstr "vzdálené naplno"
 
 msgid "Enable SQL database"
-msgstr ""
+msgstr "aktivovat SQL databázi"
 
 msgid "General Settings"
-msgstr ""
+msgstr "obecné nastavení"
 
 msgid "- Type of EnigmaLight binary:"
-msgstr ""
+msgstr "- typ binární EnigmaLight : "
 
 msgid "- Configuration File"
-msgstr ""
+msgstr "konfigurační soubor"
 
 msgid "- Run EnigmaLight as server when lights are off:"
-msgstr ""
+msgstr "- spustit EnigmaLight jako server, když je podsvícení vypnuto : "
 
 msgid "- Check for update, press OK"
-msgstr ""
+msgstr "- OK -> kontrola aktualizací..."
 
 msgid "- Show message when turn on/off lights:"
-msgstr ""
+msgstr "- při přepnutí podsvícení zobrazovat hlášení"
 
 msgid "- Enable lights on boot:"
-msgstr ""
+msgstr "- povolit podsvícení při bootování : "
 
 msgid "- Cluster Leds:"
-msgstr ""
+msgstr "- sestava LED : "
 
 msgid "- Delay:"
-msgstr ""
+msgstr "- prodleva : "
 
 msgid "- Interval:"
-msgstr ""
+msgstr "- interval : "
 
 msgid "- 3D Mode:"
-msgstr ""
+msgstr "- 3D mód : "
 
 msgid "- Default lightmode:"
-msgstr ""
+msgstr "- předvolený mód podsvícení : "
 
 msgid "- Standby Mode:"
-msgstr ""
+msgstr "- režim spánku : "
 
 msgid "- Color order:"
-msgstr ""
+msgstr "- skladba barev"
 
 msgid "Blackbars"
-msgstr ""
+msgstr "černé bloky"
 
 msgid "- Remove Blackbars top and bottom:"
-msgstr ""
+msgstr "- odebrat černé bloky nahoře a dole : "
 
 msgid "- Remove Blackbars left and right:"
-msgstr ""
+msgstr "- odebrat černé bloky vlevo a vpravo : "
 
 msgid "- Delay before remove:"
-msgstr ""
+msgstr "- prodleva před odebráním : "
 
 msgid "Switch on/off lights when TV turns on/off:"
-msgstr ""
+msgstr "zap./vyp. podsvícení při vyp./zap. TV : "
 
 msgid "Network Settings"
-msgstr ""
+msgstr "nastavení sítě"
 
 msgid "- Enable network mode (connect with other daemon):"
-msgstr ""
+msgstr "- aktivovat síť (připojit na jiného daemona) : "
 
 msgid "- Host ipaddress:"
-msgstr ""
+msgstr "- IP adresa hosta : "
 
 msgid "- Daemon port:"
-msgstr ""
+msgstr " - port Daemona : "
 
 msgid "Timer Settings"
-msgstr ""
+msgstr "nastavení časovače"
 
 msgid "- Use Timer:"
-msgstr ""
+msgstr "- použít časovač : "
 
 msgid "- Don't turn lights off/on in standby:"
-msgstr ""
+msgstr "- nepřepínat podsvícení v režimu spánku : "
 
 msgid "- Enable lights:"
-msgstr ""
+msgstr "- aktivovat podsvícení : "
 
 msgid "- Disable lights:"
-msgstr ""
+msgstr "- vypnout podsvícení : "
 
 msgid "- Use webinterface:"
-msgstr ""
+msgstr "- použít web.rozhraní : "
 
 msgid "- Webinterface port:"
-msgstr ""
+msgstr "- port web.rozhraní : "
 
 msgid "Misc"
-msgstr ""
+msgstr "různé"
 
 msgid "- Show statusbar on bottom of screen:"
-msgstr ""
+msgstr "- zobrazit stavový panel dole : "
 
 msgid "- Remove statusbar from tuningscreen:"
-msgstr ""
+msgstr "- odebrat stavový panel z obrazovky ladění : "
 
 msgid "- Show errormessages:"
-msgstr ""
+msgstr "- zobrazit chybové hlášení : "
 
 msgid "- Debug-Logging > /tmp/enigmalight_gui.log:"
-msgstr ""
+msgstr "- odladění přihlášení > /tmp/enigmalight_gui.log : "
 
 msgid "Do you want to (re)start the client ?"
-msgstr ""
+msgstr "Chcete restartovat klienta ?"
 
 msgid "To reload the configfile EnigmaLight needs a restart, restart now ?"
-msgstr ""
+msgstr "Po změně konfigurace EnigmaLight je třeba restartovat."
+"Restartovat nyní ?"
 
 msgid "Reload configfile ?"
-msgstr ""
+msgstr "Načíst znovu konfig.soubor ?"
 
 msgid "Ip address %s is not accepted, check your input and try again."
-msgstr ""
+msgstr "Ip adresa %s nebyla akceptována, zkontrolujte vstupy a zkuste znovu !"
 
 msgid ""
 "Enigmalight can't connect with %s:%s,\n"
 "check your input and try again."
 msgstr ""
+"Enigmalight nelze připojit na %s:%s,\n"
+"zkontrolujte vstupy a zkuste znovu !"
 
 msgid "Test Connection with %s:%s, succesfull!"
-msgstr ""
+msgstr "Test připojení na %s:%s byl dokončený !"
 
 msgid "Do you want to (re)start the client and connect with %s:%s ?"
-msgstr ""
+msgstr "Chcete restartovat klienta a připojit na %s:%s ?"
 
 msgid "(Re)start client ?"
-msgstr ""
+msgstr "Restartovat klienta ?"
 
 msgid "Type of enigmalight has changed, Start this type of Enigmalight ?"
-msgstr ""
+msgstr "Typ enigmalight byl změněný ! Spustit tento typ Enigmalight ?"
 
 msgid "Turn lights on"
-msgstr ""
+msgstr "zapnout podsvícení"
 
 msgid "Lights off"
-msgstr ""
+msgstr "vypnout podsvícení"
 
 msgid "Switch to dynamic mode"
-msgstr ""
+msgstr "přepnout do dynamického módu"
 
 msgid "Switch to moodlamp mode"
-msgstr ""
+msgstr "přepnout do moodlamp módu"
 
 msgid "Busy...."
-msgstr ""
+msgstr "...pracuji..."
 
 msgid "Tuning"
-msgstr ""
+msgstr "ladění"
 
 msgid "Moodlamp"
-msgstr ""
+msgstr "Moodlamp"
 
 msgid "Config Editor"
-msgstr ""
+msgstr "editor konfigurace"
 
 msgid "Box Info & About"
-msgstr ""
+msgstr "info o boxu"
 
 msgid "Can't switch mode, Lights are disabled."
-msgstr ""
+msgstr "Nelze přepnout mód, osvětlení je vypnuto !"
 
 msgid "Static color:"
-msgstr ""
+msgstr "statické barvy : "
 
 msgid "Moodlamp configuration"
-msgstr ""
+msgstr "konfigurace Moodlamp"
 
 msgid "- Standby mode:"
-msgstr ""
+msgstr "- režim spánku : "
 
 msgid "- Moodlamp Mode:"
-msgstr ""
+msgstr " - Moodlamp mód : "
 
 msgid "- Color RED\t: %s"
-msgstr ""
+msgstr "- tl.červené : %s"
 
 msgid "- Color GREEN\t: %s"
-msgstr ""
+msgstr "- tl.zelené : %s"
 
 msgid "- Color BLUE\t: %s"
-msgstr ""
+msgstr "- tl.modré : %s"
 
 msgid "- Fader brightness : %s\t"
-msgstr ""
+msgstr "- snížit jas : %s\t"
 
 msgid "RGB Test"
-msgstr ""
+msgstr "RGB test"
 
 msgid "Blackbar Test (horizontal)"
-msgstr ""
+msgstr "test černého bloku (vodorovný)"
 
 msgid "Blackbar Test (vertical)"
-msgstr ""
+msgstr "test černého bloku (svislý)"
 
 msgid "Blue wallpaper"
-msgstr ""
+msgstr "mosrá tapeta"
 
 msgid "Bars Test"
-msgstr ""
+msgstr "test panelů"
 
 msgid "Solid: White"
-msgstr ""
+msgstr "pevné : bílá"
 
 msgid "Solid: Aquamarine"
-msgstr ""
+msgstr "pevné : bl.modrá"
 
 msgid "Solid: Blue"
-msgstr ""
+msgstr "pevné : modrá"
 
 msgid "Solid: Royalblue"
-msgstr ""
+msgstr "pevné : královská modrá"
 
 msgid "Solid: Red"
-msgstr ""
+msgstr "pevné : červená"
 
 msgid "Solid: Green"
-msgstr ""
+msgstr "pevné : zelená"
 
 msgid "Solid: Gray"
-msgstr ""
+msgstr "pevné : šedá"
 
 msgid "Solid: Lightgray"
-msgstr ""
+msgstr "pevné : sv.šedá"
 
 msgid "Solid: Magenta"
-msgstr ""
+msgstr "pevné : fialová"
 
 msgid "Solid: Yellow"
-msgstr ""
+msgstr "pevné : žlutá"
 
 msgid "Solid: Dark yellow"
-msgstr ""
+msgstr "pevné : tm.žlutá"
 
 msgid "Circles"
-msgstr ""
+msgstr "kruhy"
 
 msgid "Rose"
-msgstr ""
+msgstr "růžová"
 
 msgid "Enigmalight with fpu support"
-msgstr ""
+msgstr "Enigmalight s FPU podporou"
 
 msgid "Enigmalight softfloat"
-msgstr ""
+msgstr "Enigmalight rychlé načtení"
 
 msgid "Debug -> Console"
-msgstr ""
+msgstr "ladění -> konzola"
 
 msgid "Debug -> Console + Logfile"
-msgstr ""
+msgstr "ladění -> konzola + protokol"
 
 msgid "Dynamic"
-msgstr ""
+msgstr "dynamicky"
 
 msgid "Static color"
-msgstr ""
+msgstr "statická barva"
 
 msgid "RGBTest"
-msgstr ""
+msgstr "test RGB"
 
 msgid "Color fader"
-msgstr ""
+msgstr "stmívání barev"
 
 msgid "Rainbow"
-msgstr ""
+msgstr "duhové"
 
 msgid "Start server on boot"
-msgstr ""
+msgstr "start serveru po nabootování"
 
 msgid "Start Dynamic on boot"
-msgstr ""
+msgstr "start dynam.režimu po nabootování"
 
 msgid "Start Moodlamp on boot"
-msgstr ""
+msgstr "start Moodlamp po nabootování"
 
 msgid "Custom Profile 0"
-msgstr ""
+msgstr "uživ.profil 0"
 
 msgid "Custom Profile 1"
-msgstr ""
+msgstr "uživ.profil 1"
 
 msgid "Custom Profile 2"
-msgstr ""
+msgstr "uživ.profil 2"
 
 msgid "Custom Profile 3"
-msgstr ""
+msgstr "uživ.profil 3"
 
 msgid "Custom Profile 4"
-msgstr ""
+msgstr "uživ.profil 4"
 
 msgid "Custom Profile 5"
-msgstr ""
+msgstr "uživ.profil 5"
 
 msgid "Custom Profile 6"
-msgstr ""
+msgstr "uživ.profil 6"
 
 msgid "Color Tuning"
-msgstr ""
+msgstr "ladění barev"
 
 msgid "- Profile:"
-msgstr ""
+msgstr "- profil : "
 
 msgid "- Led speed:"
-msgstr ""
+msgstr "- rychlost LED : "
 
 msgid "- Auto speed:"
-msgstr ""
+msgstr "- aut.rychlost : "
 
 msgid "- Brightness:"
-msgstr ""
+msgstr "- jas : "
 
 msgid "- Minimal Brightness:"
-msgstr ""
+msgstr "- min.jas : "
 
 msgid "- Maximal Brightness:"
-msgstr ""
+msgstr "- max.jas : "
 
 msgid "- Saturation 0-20:"
-msgstr ""
+msgstr "- nasycení 0-20 : "
 
 msgid "- Minimal Saturation 0.00-1.00:"
-msgstr ""
+msgstr "- min.nasycení 0.00-1.00 : "
 
 msgid "- Maximal Saturation 0.00-1.00:"
-msgstr ""
+msgstr "- max.nasycení 0.00-1.00 : "
 
 msgid "- Gamma correction 1-10:"
-msgstr ""
+msgstr "- gamma korekce 1-10 : "
 
 msgid "- Threshold:"
-msgstr ""
+msgstr "- prahové napětí : "
 
 msgid "Color Adjustment, only local"
-msgstr ""
+msgstr "nastavení barev, pouze lokálně"
 
 msgid "- Use ColorAdjust Settings:"
-msgstr ""
+msgstr "- použít nastavení ColorAdjust : "
 
 msgid "- Adjust RED "
-msgstr ""
+msgstr "- přizpůsobit červenou"
 
 msgid "- Adjust GREEN "
-msgstr ""
+msgstr "- přizpůsobit zelenou"
 
 msgid "- Adjust BLUE "
-msgstr ""
+msgstr "- přizpůsobit modrou"
 
 msgid "- Show sample pictures:"
-msgstr ""
+msgstr "- zobrazit vzorky obrázků : "
 
 msgid "- Sample picture:"
-msgstr ""
+msgstr "- vzorky obrázků : "
 
 msgid "Blackbar detection"
-msgstr ""
+msgstr "detekce černého panelu"
 
 msgid "Device"
-msgstr ""
+msgstr "zařízení"
 
 msgid "- Device type:"
-msgstr ""
+msgstr "- typ zařízení : "
 
 msgid "- Bus:"
-msgstr ""
+msgstr "- sběrnice : "
 
 msgid "- Address:"
-msgstr ""
+msgstr "- adresa : "
 
 msgid "- Serial:"
-msgstr ""
+msgstr "- serial.: "
 
 msgid "- NodeMCU IP:"
-msgstr ""
+msgstr "- NodeMCU IP : "
 
 msgid "- NodeMCU PORT:"
-msgstr ""
+msgstr "- port NodeMCU : "
 
 msgid "- Device output:"
-msgstr ""
+msgstr "- výstup zařízení : "
 
 msgid "- Device rate:"
-msgstr ""
+msgstr "- rychlost zařízení : "
 
 msgid "- Ambioder precision:"
-msgstr ""
+msgstr "- dvojnásobná přesnost : "
 
 msgid "Lights"
-msgstr ""
+msgstr "světla"
 
 msgid "- With (floor) stand:"
-msgstr ""
+msgstr "- s (min.) stand.: "
 
 msgid "-- How many lights Bottom-left:"
-msgstr ""
+msgstr "-- kolik světla dole vlevo : "
 
 msgid "-- Bottom center (how many places are empty):"
-msgstr ""
+msgstr "-- dole na střed (kolik míst je prázdných) : "
 
 msgid "-- How many lights Bottom-right:"
-msgstr ""
+msgstr "-- kolik světla dole vpravo : "
 
 msgid "- How many lights Bottom:"
-msgstr ""
+msgstr "-- kolik světla dole : "
 
 msgid "- How many lights Top:"
-msgstr ""
+msgstr "-- kolik světla nahoře : "
 
 msgid "- How many lights Left:"
-msgstr ""
+msgstr "-- kolik světla vlevo : "
 
 msgid "- How many lights Right:"
-msgstr ""
+msgstr "-- kolik světla vpravo : "
 
 msgid "- Where starts led 1:"
-msgstr ""
+msgstr "- kde spouštět LED 1 : "
 
 msgid "- Clockwise or Backwards:"
-msgstr ""
+msgstr "- ve směru hod.ručiček nebo obráceně : "
 
 msgid "- Scan depth Left:"
-msgstr ""
+msgstr "- hloubka skenování vlevo : "
 
 msgid "- Scan depth Right:"
-msgstr ""
+msgstr "- hloubka skenování vpravo : "
 
 msgid "- Scan depth Top:"
-msgstr ""
+msgstr "- hloubka skenování nahoře : "
 
 msgid "- Scan depth Bottom:"
-msgstr ""
+msgstr "- hloubka skenování dole : "
 
 msgid "WifiLight"
-msgstr ""
+msgstr "WifiLight"
 
 msgid "- WifiLight IP:"
-msgstr ""
+msgstr "- IP WifiLight : "
 
 msgid "- WifiLight PORT:"
-msgstr ""
+msgstr "- port WifiLight : "
 
 msgid "Color"
-msgstr ""
+msgstr "barva"
 
 msgid "- Red Adjust:"
-msgstr ""
+msgstr "- nastavit červenou : "
 
 msgid "- Red Gamma:"
-msgstr ""
+msgstr "- gama červená : "
 
 msgid "- Red Blacklevel:"
-msgstr ""
+msgstr "- červená, úrověň černé : "
 
 msgid "- Green Adjust:"
-msgstr ""
+msgstr "- nastavit zelenou : "
 
 msgid "- Green Gamma:"
-msgstr ""
+msgstr "- gama zelená : "
 
 msgid "- Green Blacklevel:"
-msgstr ""
+msgstr "- zelená, úrověň černé : "
 
 msgid "- Blue Adjust:"
-msgstr ""
+msgstr "- nastavit modrou : "
 
 msgid "- Blue Gamma:"
-msgstr ""
+msgstr "- gama modrá : "
 
 msgid "- Blue Blacklevel:"
-msgstr ""
+msgstr "- modrá, úrověň černé : ""
 
 msgid "Create configfile"
-msgstr ""
+msgstr "založit konfig.soubor"
 
 msgid "Create and Test this config with [RGB Test]"
-msgstr ""
+msgstr "založit a testovat konfig.soubor s RGB"
 
 msgid "LEFT [bottom]"
-msgstr ""
+msgstr "vlevo [dole]"
 
 msgid "TOP [left]"
-msgstr ""
+msgstr "nahoře [vlevo]"
 
 msgid "RIGHT [top]"
-msgstr ""
+msgstr "vpravo [nahoře]"
 
 msgid "BOTTOM [right]"
-msgstr ""
+msgstr "dole [vpravo]"
 
 msgid "BOTTOM [middle]"
-msgstr ""
+msgstr "dole [na střed]"
 
 msgid "BOTTOM [left]"
-msgstr ""
+msgstr "dole [vlevo]"
 
 msgid "RIGHT [bottom]"
-msgstr ""
+msgstr "vpravo [dole]"
 
 msgid "TOP [right]"
-msgstr ""
+msgstr "nahoře [vpravo]"
 
 msgid "LEFT [top]"
-msgstr ""
+msgstr "vlevo [nahoře]"
 
 msgid "Clockwise"
-msgstr ""
+msgstr "ve směru hod.ručiček"
 
 msgid "Backwards"
-msgstr ""
+msgstr "obráceně"
 
 msgid "EnigmaLight | on/off"
-msgstr ""
+msgstr "EnigmaLight | zap./vyp."
 
 msgid "EnigmaLight | Settings"
-msgstr ""
+msgstr "EnigmaLight | nastavení""
 
 msgid "TV backlight"
-msgstr ""
+msgstr "podsvícení TV"
 
 msgid "Enigmalight Configuration"
-msgstr ""
+msgstr "Enigmalight konfigurace"
 
 msgid "EnigmaLight ConfigEditor"
-msgstr ""
+msgstr "Enigmalight konfig.editor"
 
 msgid "Select your configfile, default /etc/enigmalight.conf will be used "
-msgstr ""
+msgstr "Vyberte konfig.soubor, předvoleno = /etc/enigmalight.conf"
 
 msgid "Run EnigmaLight as Server for Boblight or other clients "
-msgstr ""
+msgstr "Spustit EnigmaLight jako server pro Boblight nebo jiné klienty "
 
 msgid "Show a messagebox when you turn on/off the lights "
-msgstr ""
+msgstr "Zobrazit hlášení při přepnutí světla "
 
 msgid "Automatic turn on lights on boot "
-msgstr ""
+msgstr "Aut.přepnout podsvícení dole "
 
 msgid ""
 "Cluster [X] Leds as one led.\n"
 "Default each led had is own color, with this option you can bundle/cluster "
 "this to 2 -> 10 leds."
 msgstr ""
+"Sadu [X] LED jako jednu LED.\n"
+"Standardně má každá LED svoji barvu, pod touto volbou můžete sadu "
+"složit z 2 -> 10 LED"
 
 msgid ""
 " Some tv's are slower then the lights. With this option you can make the "
 "output 1 -> 20 frames later."
 msgstr ""
+" Některé TV mají pomalejší podsvícení. Touto volbou můžete "
+"později sestavit výstup pro 1 -> 20 rámců."
 
 msgid ""
 "How fast Enigmalight wil run.\n"
 "0.01 = 15 -> 40fps | 0.10 = 10fps | 0.20 = 5fps: "
 msgstr ""
+"Jak rychle má Enigmalight běžet ?\n"
+"0.01 = 15 -> 40fps | 0.10 = 10fps | 0.20 = 5fps : "
 
 msgid "Turn on/off 3D Mode, SBS or TAB"
-msgstr ""
+msgstr "zap./vyp. 3D mód, SBS nebo TAB"
 
 msgid "Turn off lights or use moodlamp in standby "
-msgstr ""
+msgstr "vypnout podsvícení nebo použít moodlamp v režimu spánku "
 
 msgid " Set the order as given in enigmalight.conf."
-msgstr ""
+msgstr "Nastavit pořadí podle enigmalight.conf"
 
-msgid "Remove horizontal blackbars from lights."
-msgstr ""
+msgid "Remove horizontal from lights."
+msgstr "Odebrat vodorovný černý blok z podsvícení"
 
 msgid "Remove vertical blackbars from lights."
-msgstr ""
+msgstr "Odebrat svislý černý blok z podsvícení"
 
 msgid ""
 "Count from 0 to given number\n"
@@ -20133,48 +20206,58 @@ msgid ""
 "if enigmalight runs on 10fps and you will wait 10sec before remove, then set "
 "it to 100"
 msgstr ""
+"Počítejte od 0 po dané číslo,\n"
+"pokud je tam ještě nějaký černý blok, odeberte ho.\n"
+"Pokud běží enigmalight na 10fps a čekáte 10 sek. před odebráním, tak to "
+"nastavte na 100"
 
 msgid ""
 "Use enigmalight as client and connect with other daemon over network (not "
 "for local use)"
 msgstr ""
+"Použít enigmalight jako klienta a připojit na jiného daemona přes síť (ne "
+"pro lokální použití)"
 
 msgid "Turn on/off lights @ given time "
-msgstr ""
+msgstr "zap./vyp. čas podsvícení @ dané sv. "
 
 msgid "Control EnigmaLight from browser"
-msgstr ""
+msgstr "ovládat EnigmaLight z prohlížeče"
 
 msgid "Port which will be used for webinterface"
-msgstr ""
+msgstr "port použitý ve web.rozhraní"
 
 msgid "Show status at bottomscreen fps, currentmode and other info"
-msgstr ""
+msgstr "zobrazit stav fps na boot.obrazovce, akt.mód a další info"
 
 msgid "Remove the statusbar from colortuning screen"
-msgstr ""
+msgstr "odebrat stavový panel z okna ladění barev"
 
 msgid "Turn on if you want to see error information"
-msgstr ""
+msgstr "zapnout, pokud chcete vidět chybová hlášení"
 
 msgid "Disable timer function in standbymode"
-msgstr ""
+msgstr "vypnout funkci časovače v režimu spánku"
 
 msgid "Time when lights go on"
-msgstr ""
+msgstr "čas, ja dlouho bude světlo zapnuto"
 
 msgid "Time when lights go off"
-msgstr ""
+msgstr "čas, ja dlouho bude světlo vypnuto"
 
 msgid ""
 "Profile: \n"
 "Create your own profiles."
 msgstr ""
+"Profil : \n"
+"založit vlastní profil"
 
 msgid ""
 "General setting for the led-speed how fast is changing the colour. 40 is a "
 "nice setting."
 msgstr ""
+"Obecné nastavení pro rychlost LED při přepínání barev. 40 je vhodné "
+"nastavení."
 
 msgid ""
 "Brightness:\n"
@@ -20186,6 +20269,13 @@ msgid ""
 "2.0 (I think) and therefore can not show brown Ambilight. A nice value is "
 "1.0 otherwise it quickly distorts the colours."
 msgstr ""
+"Jas :\n"
+"Tato volba dobrá, ale je důležitější i než nasycení. "
+"Proč ? Jednoduše tam jsou barvy jako : hnědá, tyrkysová, fialová "
+"a šedo-zelená, která silně závisí pouze na jasu. Např. "
+"tm.hnědá až oranžová, tm.tyrkysová až sv.modrá. Tak pokud nastavíte "
+"jas na 2.0, násobí pak jas barvy, kterou vidíte "
+"už nebude hnědá. Vhodná hodnota je 1.0, jinak se barvy dost deformují."
 
 msgid " Min 0.00 | Max 1.00 | Default 0.00"
 msgstr ""
