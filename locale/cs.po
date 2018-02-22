@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-11-27\n"
+"PO-Revision-Date: 2018-02-22\n"
 "Last-Translator: Roxy <vro@wo.cz>\n"
 "Language-Team: Roxy <vro@wo.cz>\n"
 "Language: cs_CZ\n"
@@ -20278,10 +20278,10 @@ msgstr ""
 "už nebude hnědá. Vhodná hodnota je 1.0, jinak se barvy dost deformují."
 
 msgid " Min 0.00 | Max 1.00 | Default 0.00"
-msgstr ""
+msgstr " min. 0.00 | max. 1.00 | předvolba 0.00"
 
 msgid " Min 0.00 | Max 1.00 | Default 1.00"
-msgstr ""
+msgstr " min. 0.00 | max. 1.00 | předvolba 1.00"
 
 msgid ""
 " Saturation:\n"
@@ -20294,411 +20294,457 @@ msgid ""
 "sky has some blue tones in it. When you try saturation on 2, it will thus be "
 "seen as good this blue tint twice while it appears white on your screen."
 msgstr ""
+" Nasycení :\n"
+"Jednoduché zdůraznění průměrných barev. Nejlepší volba je "
+"mezi 1:00 a 1:20. Více přesycené barvy jsou nepřirozené. \n"
+"Příklad :\n"
+" Řada filmů má gradienci barev přepálenou. Často je to barva modrá. "
+"Modrá ovlivňuje všechny ostatné barvy a i světle šedá obloha je tím ovlivněna. "
 
 msgid ""
 "Minimal Brightness:\n"
 "If you set this as example to 0.01, then the LEDs will not completely dark "
 "is there is black but soft grey"
 msgstr ""
+"Minimální jas :\n"
+"Pokud nastavíte např.: 0.01, bude LED podsvícení jen tmavě-šedé, ale ne černé !"
 
 msgid ""
 "Gamma correction:\n"
 " Set this to 2.2 for default, since this is a default value for movies."
 msgstr ""
+"Gamma korekce :\n"
+" Standardně se nastavuje na 2.2, platí to pak pro všechny videa."
 
 msgid ""
 "Threshold:\n"
 "Filter/Remove the almost dark pixels, 15 is a nice value."
 msgstr ""
+"Prahová hodnota :\n"
+"Filtr a odebrání téměř tmavých pixelů, 15 je vhodná hodnota."
 
 msgid "Leds: %s | Channels %s"
-msgstr ""
+msgstr "LED : %s | kanálů : %s"
 
 msgid "Use < > to jump with 10 in slider"
-msgstr ""
+msgstr "tlačítky < > se přeskočí o 10 kroků na posuvníku"
 
 msgid "Use moodlamp or lights off in standby."
-msgstr ""
+msgstr "použít moodlamp nebo vypnout podsvícení v režimu spánku"
 
 msgid "[Server] Idle"
-msgstr ""
+msgstr "[server] nečinný"
 
 msgid "[Server] Client connected (%s)"
-msgstr ""
+msgstr "[server] připojený klient (%s)"
 
 msgid "[Moodlamp] %s | Static color"
-msgstr ""
+msgstr "[Moodlamp] %s | statická barva"
 
 msgid "[Dynamic] %s | %s"
-msgstr ""
+msgstr "[dynamická] %s | %s"
 
 msgid "[Moodlamp] %s | RGBtest"
-msgstr ""
+msgstr "[Moodlamp] %s | RGBtest"
 
 msgid "[Moodlamp] %s | ColorFader"
-msgstr ""
+msgstr "[Moodlamp] %s | ColorFader"
 
 msgid "[Moodlamp] %s | Rainbow"
-msgstr ""
+msgstr "[Moodlamp] %s | Rainbow"
 
 msgid "Not Running"
-msgstr ""
+msgstr "není spuštěno"
 
 msgid "LightsOn"
-msgstr ""
+msgstr "podsvícení zap."
 
 msgid "LightsOff"
-msgstr ""
+msgstr "podsvícení vyp."
 
 msgid "Status: %s | Current mode: %s | FPS: %s"
-msgstr ""
+msgstr "status: %s | akt.mód: %s | FPS: %s"
 
 msgid "Info: [%s]"
-msgstr ""
+msgstr "info: [%s]"
 
 msgid ""
 "Error while starting EnigmaLight:\n"
 "\n"
 "%s"
 msgstr ""
+"Chyba při startu EnigmaLight :\n"
+"\n"
+"%s"
 
 msgid "Start lights.."
-msgstr ""
+msgstr "spustit podsvícení..."
 
 msgid "Change mode"
-msgstr ""
+msgstr "změnový mód"
 
 msgid "Q:"
-msgstr ""
+msgstr "Q:"
 
 msgid "A:"
-msgstr ""
+msgstr "A:"
 
 msgid "Can I use the boblight.conf ?"
-msgstr ""
+msgstr "Mohu použít boblight.conf ?"
 
 msgid "Yes you can use this, rename that file to enigmalight.conf."
-msgstr ""
+msgstr "Můžete toto použít a přejmenovat soubor na enigmalight.conf"
 
 msgid "Can I use the multiquickbutton plugin ?"
-msgstr ""
+msgstr "Mohu použít multiquickbutton plugin ?""
 
 msgid "Yes for start and stop the lights"
-msgstr ""
+msgstr "ano - pro spuštění nebo zastavení podsvícení"
 
 msgid "Enigmalight is freezed, what can I do ?"
-msgstr ""
+msgstr "Enigmalight se zablokoval, co s tím udělat ?"
 
 msgid "In MainMenu press 0 to forcekill enigmalight."
-msgstr ""
+msgstr "V hl.menu stiskněte 0 a odstřelte enigmalight"
 
 msgid "How to get support ?"
-msgstr ""
+msgstr "Jak získat podporu ?"
 
 msgid "Take a lookt at https://www.vuplus-support.org"
-msgstr ""
+msgstr "Podívejte se na https://www.vuplus-support.org""
 
 msgid "EnigmaLight - Ambilight for Enigma2"
-msgstr ""
+msgstr "EnigmaLight - ambilight pro Enigmu2""
 
 msgid "Translations"
-msgstr ""
+msgstr "překlad"
 
 msgid "Some GUI Code"
-msgstr ""
+msgstr "nějaký kód grafiky"
 
 msgid "This fork of Enigmalight will be supported at"
-msgstr ""
+msgstr "tato činnost Enigmalight bude podporována v "
 
 msgid "Adjustments"
-msgstr ""
+msgstr "úprava"
 
 msgid "About EnigmaLight / Box information"
-msgstr ""
+msgstr "o prg. EnigmaLight / box informace"
 
 msgid "Timeshift starts automatically after given time at current service"
-msgstr ""
+msgstr "Timeshift se aut.spustí v zadaném čase a na nastaveném kanálu"
 
 msgid ""
 "Choose what should happen with timeshift file when service will be changed "
 "to another one"
 msgstr ""
+Určete, co bude se souborem timeshift, pokud bude kanál změněný na jiný"
 
 msgid ""
 "Choose an option for processing timeshift file when the TV event at the "
 "current service changes"
 msgstr ""
+"Vyberte volbu pro zpracování souboru timeshift, pokud bude TV pořad "
+"aktuálního kanálu změněný"
 
 msgid ""
 "This removes timeshift files automatically when timeshift is shorter than "
 "given time"
 msgstr ""
+"Toto aut.odstraní soubory timeshift, pokud je timeshift kratší než je zadaný"
 
 msgid ""
 "Delete timeshift files automatically when files are older than given time"
 msgstr ""
+"aut.odstranit soubory timeshift, pokud budou soubory starší než je zadané"
 
 msgid ""
 "Skip to next or previous timeshift event at the current service with < > "
 "buttons"
 msgstr ""
+"přeskočit na další nebo předchozí soubor timeshift aktuálního kanálu tl. < > "
 
 msgid ""
 "When saving timeshift is enabled. You can choose available timeshift files "
 "here."
 msgstr ""
+"pokud je ukládání timeshiftu povoleno, můžete tady vybírat dostupné soubory "
 
 msgid "Do not show timeshift files as movies in movie list."
-msgstr ""
+msgstr "nezobrazovat soubory timeshiftu v seznamu videa"
 
 msgid "Configure the color of the subtitles."
-msgstr ""
+msgstr "nakonfigurovat barvu titulků"
 
 msgid "Configure the font size of the subtitles."
-msgstr ""
+msgstr "nakonfigurovat velikost fontu titulků"
 
 msgid "Configure the Y padding of the subtitles."
-msgstr ""
+msgstr "nakonfigurovat Y polohu titulků"
 
 msgid "Configure the color of the background of subtitles."
-msgstr ""
+msgstr "nakonfigurovat barvu pozadí titulků"
 
 msgid "Configure the transparency of the background of subtitles."
-msgstr ""
+msgstr "nakonfigurovat transparentní barvu pozadí titulků"
 
 msgid "Configure the character style of the subtitles."
-msgstr ""
+msgstr "nakonfigurovat typ fontu titulků"
 
 msgid ""
 "Configure the level of the character styles. The character style makes the "
 "subtitles easier to read on a light background."
-msgstr ""
+msgstr "nakonfigurovat typ fontu tak, aby se dobře na světlém pozadí rozeznávaly"
 
 msgid "Configure the transparency of the subtitles."
-msgstr ""
+msgstr "nakonfigurovat transparentní barvu titulků"
 
 msgid ""
 "When enabled, teletext subtitles will be displayed at their original "
 "position."
-msgstr ""
+msgstr "při aktivaci budou titulky teletextu zobrazeny na orig.pozici"
 
 msgid "Configure the horizontal alignment of the subtitles."
-msgstr ""
+msgstr "nakonfigurovat vodorovné zarovnání titulků"
 
 msgid ""
 "Configure the vertical position of the subtitles, measured from the bottom "
 "of the screen."
-msgstr ""
+msgstr "nakonfigurovat svislou pozici titulků - od spodní hrany okna"
 
 msgid "When enabled, graphical DVB subtitles will be centered horizontally."
-msgstr ""
+msgstr "při aktivaci budou grafické titulky DVB vodorovně vycentrovány"
 
 msgid "When enabled, reformat subtitles to match the width of the screen."
-msgstr ""
+msgstr "při aktivaci budou tiutlky přeformátovány podle šířky obrazovky"
 
 msgid "Configure the subtitle delay when timing information is not available."
-msgstr ""
+msgstr "nakonfigurovat "
 
 msgid "Configure an additional delay to improve subtitle synchronisation."
-msgstr ""
+msgstr "nakonfigurovat prodlevu titulků, pokud není aktivní synchronizace"
 
 msgid ""
 "Configure if the subtitle should switch between normal, italic, bold and "
 "bolditalic"
-msgstr ""
+msgstr "nakonfigurovat typ fontu - normální, italiku, tučný, tučnou italiku"
 
 msgid ""
 "Replace `- ` in dialogs with colored text per speaker (like teletext "
 "subtitles for the hearing impaired)"
 msgstr ""
+"nahradit `- ` v dialogu barevného textu za mluvené slovo (teletextové "
+"titulky mohou mít zhoršenou srozumitelnost)"
 
 msgid ""
 "Configure an additional delay to improve external subtitle synchronisation."
-msgstr ""
+msgstr "nakonfigurovat dodatečnou prodlevu pro zlepšení synchronizace titulků"
 
 msgid "Can be used for different fps between external subtitles and video."
-msgstr ""
+msgstr "můžete použít rozdílné FTP mezi ext.titulky a videem"
 
 msgid ""
 "When enabled, external subtitles will be always turned on for playback movie."
-msgstr ""
+msgstr "po aktivaci budou titulky vždy při přehrávání videa zapnuty"
 
 msgid "Shows folders - default is ON"
-msgstr ""
+msgstr "zobrazit složky - předvolba = zap."
 
 msgid "Show small symbols for type of media"
-msgstr ""
+msgstr "zobrazit malé symboly typů videa"
 
 msgid "This creates virtual folders based on movie title"
-msgstr ""
+msgstr "založení virtuální složky na základě titulku videa"
 
 msgid "Amount of items which are needed before creating a virtual folder"
-msgstr ""
+msgstr "počet položek, které jsou potřebné před založením virtuální složky"
 
 msgid ""
 "Virtual folders will be sorted as movies and not like folders on top of the "
 "list."
-msgstr ""
+msgstr "virtuální složky budou seřazeny jako video a ne jako složky nahoře v seznamu"
 
 msgid "Show movies in different colors, depending on current view status"
-msgstr ""
+msgstr "zobrazení videa v různých barvách v závislosti na stavu zobrazení"
 
 msgid ""
 "When this option is enabled, it is not possible to fast forward to the end "
 "of the movie. This prevents stopping movies by mistake at fast forwarding"
 msgstr ""
+"po aktivaci nebude možný přeskok od začátku na konec videa."
+"Zabrání to zastavení videa při rychlém přesunu."
 
 msgid ""
 "Using smartseek for skipping advertisment very fast. The first direction "
 "change at smartseek biscets the skip intervall. After this every smartseek "
 "button press biscets the skip intervall"
 msgstr ""
+"použít chytré hledání pro přeskakování reklamy. První změna směru "
+"použije vložený interval. Pak stisknutí tlačítka se bude interval opakovat"
 
 msgid "Smartseek intervall will not be smaller than given value"
-msgstr ""
+msgstr "interval chytrého hledání nesmí být kratší, než je předvolená hodnota"
 
 msgid "Fixed skip intervall for left/right buttons"
-msgstr ""
+msgstr "pevně zadaný interval pro přeskok přes tlačítko vlevo / vpravo"
 
 msgid ""
 "Time after which smartseek will be disactivated when there is no smartseek "
 "button press"
 msgstr ""
+"čas chytrého hledání bude deaktivovaný, pokud tam již není pořebný prostor pro přeskok"
 
 msgid "Use left/right always for skipping, even when smartseek is not active"
-msgstr ""
+msgstr "použít tl.vlevo / vpravo pro přeskoky, i když nebude chytré hledání aktivní"
 
 msgid ""
 "This option will be removed soon and will be replaced by database movie trash"
-msgstr ""
+msgstr "tato volba je dočasná, bude nahrazena databází koše pro videa"
 
 msgid "Deleted items will be stored in database for further processing"
-msgstr ""
+msgstr "odstraněné položky budou uloženy do databáze - pro další zpracování"
 
 msgid ""
 "Delete items which are older than given date. This is independent from date "
 "of deletion."
-msgstr ""
+msgstr "odstraní položky, které jsou starší než je zadaný datum"
 
 msgid ""
 "Delete movies whiche are deleted before the given date. This is independet "
 "from creation date of the item."
-msgstr ""
+msgstr "odstraní položky, které jsou před zadaným datumem pro odstranění"
 
 msgid "Choose whether both previous options must be valid or only one of them."
-msgstr ""
+msgstr "vyberte, mají být platné obě volby nebo pouze jedna z nich"
 
 msgid ""
 "This performs movie database updates in standby. Normally this is not needed."
-msgstr ""
+msgstr "provádí aktualizaci databáze videa v režimu spánku. Normálně to není potřeba."
 
 msgid ""
 "When this option is enbaled, you can use different settings like sorting for "
 "every folder."
-msgstr ""
+msgstr "po aktivaci můžete použít rozdílná nastavení - jako seřazení pro každou složku"
 
 msgid "There will be no question for confirmation before deleting movies"
-msgstr ""
+msgstr "nepoužívat dotaz před odstraněním videa"
 
 msgid "Use more than one favourite list"
-msgstr ""
+msgstr "použít více než jeden oblíbený seznam"
 
 msgid "This configures the channel buttons for zapping"
-msgstr ""
+msgstr "konfigurace tlačítek pro přepínání kanálů"
 
 msgid "When this option is activated, bouquets can be switch with left/right"
-msgstr ""
+msgstr "po aktivaci mohou být sady kanálů přepínány tl. vlevo / vpravo"
 
 msgid "Time before input screen for number zap will be closed"
-msgstr ""
+msgstr "čas před náběhem obrazu - při přepínání čísly bude ukončený"
 
 msgid "Display small PicutreinPicture of selected service"
-msgstr ""
+msgstr "zobrazit malý PIP vybraného kanálu"
 
 msgid "intial zap focus when enabling PictureinPicture"
-msgstr ""
+msgstr "zapnout zaměření při aktivaci PIP"
 
 msgid ""
 "When a service is not available, (e.g. running recordings) this service will "
 "be skipped during zap"
 msgstr ""
+"pokud není kanál dostupný (např.spuštěné nahrávání), tak bude přeskočený"
 
 msgid ""
 "Detection of available services will take care of services which are "
 "assigned to CI modules"
 msgstr ""
+"detekce dostupných kanálů, které patří pod CI moduly"
 
 msgid ""
 "When activated, there is no need for manual assigning of services to CI "
 "modules. Take care when HD+ is activated at your Sky Smartcard, if so, "
 "please assign services manually"
 msgstr ""
+"po aktivaci nebude třeba manuálního přidělování kanálů, které patří pod CI "
+"moduly. Zjistěte, které HD+ kanály jsou ještě aktivovány na vaší kartě a pokud jsou, "
+"přiřaďte je manuálně"
 
 msgid "When creating a timer, the given margin will be added automatically"
-msgstr ""
+msgstr "při sestavování časovače budou zadány čas.mantinely automaticky"
 
 msgid ""
 "This option is only neede for satellite equipment, which have problems when "
 "there are many service changes at the same time"
 msgstr ""
+"tato volba je třeba pro satelitní vybavení, které má problémy a má příliš mnoho "
+"změn kanálů v konkrétním čase"
 
 msgid ""
 "Services which are assigned to CI modules will not be descrambled during "
 "recording. The recordings will be descrambled in standby. This allows "
 "multiple recordings of scrambled services."
 msgstr ""
+"kanály, které jsou přiřazeny do CI modulů nebudou dekódovány během "
+"nahrávání. Záznamy budou dekódovány v režimu spánku. Toto umožní "
+"vícenásobné nahrávání různých kanálů"
 
 msgid "User defined means that size is set by given skin"
-msgstr ""
+msgstr "uživatelsky definované znamená, že bude velikost daná podle skinu"
 
 msgid "This setup is only for picons which are shown in service list"
-msgstr ""
+msgstr "toto nastavení je pouze pro picony, které jsou zobrazeny v seznamu kanálů"
 
 msgid "In matrix mode the items have a fixed column width"
-msgstr ""
+msgstr "v matrici budou mít položky pevnou šířku sloupců"
 
 msgid ""
 "First OK press activate selected service and second press closes service list"
 msgstr ""
+"první stisknutí OK aktivuje vybraný kanál a druhý uzavře seznam kanálů"
 
 msgid "This allows removing services outside bouquets"
-msgstr ""
+msgstr "toto umožní odebrání kanálů mimo sadu kanálů"
 
 msgid ""
 "Service list will not be updated (new services or outdated services) during "
 "zapping when this is activated."
 msgstr ""
+"seznam kanálů nebude aktualizovaný (nové nebo zastaralé kanály) během "
+"mazání"
 
 msgid ""
 "This option includes also configuration file in crashlog. Please check for "
 "sensitive data before providing such a crash log to other"
 msgstr ""
+"tato volba také zahrnuje konfigurační soubor prokolu pádů. Zkontrolujte citlivá data "
+"před poskytnutím log.protokolu dále"
 
 msgid "EnigmaLight | Dynamic on/off"
-msgstr ""
+msgstr "EnigmaLight | Dynamic zap./vyp."
 
 msgid "EnigmaLight | Moodlamp on/off"
-msgstr ""
+msgstr "EnigmaLight | Moodlamp zap./vyp."
 
 msgid "USERLAND :"
-msgstr ""
+msgstr "uživatel : "
 
 msgid "DRIVER :"
-msgstr ""
+msgstr "ovladač : "
 
 msgid "InfoBar at pause"
-msgstr ""
+msgstr "info-panel při pauze"
 
 msgid "always InfoBar"
-msgstr ""
+msgstr "vždy info-panel"
 
 msgid "Behavior of OK key during winding or in PAUSE state"
-msgstr ""
+msgstr "chování tl.OK během přetáčení nebo v pauze"
 
 msgid ""
 "Configure OK key for show/hide InfoBar during media file playback in PAUSE "
 "state or during winding"
 msgstr ""
+"chování tl.OK pro zobrazení / skrytí info-panelu při přehrávání videa, při pauze "
+"nebo přetáčení"
 
 msgid "Play/Pause"
-msgstr ""
+msgstr "přehrát / pauza"
