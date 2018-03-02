@@ -9436,7 +9436,7 @@ msgid "Show sub directories in folder info"
 msgstr "Anzeigen von Unterordnern in den Verzeichnisinformationen"
 
 msgid "Show folder info at the beginning"
-msgstr "Verzeichnisinformattionen an den Anfang stellen"
+msgstr "Verzeichnisinformationen an den Anfang stellen"
 
 msgid "All movies"
 msgstr "Alle Aufnahmen"
